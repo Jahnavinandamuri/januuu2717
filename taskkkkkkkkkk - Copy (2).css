@@ -1,0 +1,74 @@
+.img{
+	height: 25%;
+}
+#a{
+	padding-left:60px ;
+	height: 500px;
+	width: 400px;
+}
+.tagline{
+	padding-left: 10px;
+	color: gray;
+}
+.bb{
+	margin-top: 10px;
+	float: left;
+	width: 255px;
+}
+.cc{
+	margin-top: 10px;
+	margin-left:30px;
+	float:left;
+	width: 255px;
+}
+.zz{
+	font-size: 15px;
+}
+ 
+.heading{
+	padding-left: 60px;
+}
+.yy{
+	padding-top: 3px;
+	float: left;
+}
+.tel1{
+	float: right;
+	width: 80px;
+}
+.xx{
+	margin-top: 30px;
+	float: left;
+	width: 255px;
+}
+.xx1{
+	margin-top: 30px;
+	margin-left: 30px;
+	float:left;
+	width: 255px;
+}
+.button1{
+	margin-top:20px;
+	width: 550px;
+}
+#hr1{
+	display: inline;
+}
+.reg{
+	margin-top: 20px;
+	padding-left: 180px;
+	color: gray;
+}
+.l{
+	padding-left: 15px;
+	text-decoration: none;
+}
+.o{
+	margin-top: 10px;
+	padding-left: 300px;
+	color:gray;
+}
+.ww1{
+	margin-top: 10px;
+	width: 550px;
+}
