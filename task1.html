@@ -1,67 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	 <link rel="stylesheet" type="text/css" href="bootstrap.css">
-	<style type="text/css">
-		.col-md-2{
-			background-color: paleturquoise;
-			padding: 20px 20px 20px 20px;
-			border: 10px solid white;
-			text-align: center;
-		}
-		.col-md-2 offset-8{
-			background-color: paleturquoise;
-			padding: 20px 20px 20px 20px;
-			border: 10px solid white;
-			text-align: center;
-		}
-		button{
-			background-color: paleturquoise;
-			border: none;
-		}
-		a{
-			color: black;
-			text-decoration: none;
-		}
-	</style>
-	<title>BOOTSTRAP</title>
+	<title>task</title>
 </head>
 <body>
-	<div class="container">
-	<div class="row">
-		<div class="col-md-2 "><button><a href="Jumborton.html">Jumborton</a></button></div>
-		<div class="col-md-2 "><button><a href="Spinners.html">Spinners</a></button></div>
-		<div class="col-md-2 "><button><a href="Scrollspy.html">Scrollspy</a></button></div>
-		<div class="col-md-2 "><button><a href="Listgroups.html">List Groups</a></button></div>
-		<div class="col-md-2 "><button><a href="Carousel.html">Carousel</a></button></div>
-		<div class="col-md-2 "><button><a href="Buttongroup.html">Button Groups</a></button></div>
-	</div>
-	<div class="row">
-		<div class="col-md-2 "><button><a href="Alerts.html">Alerts</a></button></div>
-		<div class="col-md-2 offset-8"><button><a href="Badge.html">Badge</a></button></div>
-	</div>
-	<div class="row">
-		<div class="col-md-2 "><button><a href="Buttons.html">Buttons</a></button></div>
-		<div class="col-md-2 offset-8"><button><a href="Card.html">Card</a></button></div>
-	</div>
-	<div class="row">
-		<div class="col-md-2 "><button><a href="ToolTip.html">ToolTip</a></button></div>
-		<div class="col-md-2 offset-8"><button><a href="Mediaobject.html">Media Object</a></button></div>
-	</div>
-	<div class="row">
-		<div class="col-md-2 "><button><a href="Nav.html">Nav</a></button></div>
-		<div class="col-md-2 offset-8"><button><a href="Modal.html">Modal</a></button></div>
-	</div>
-	<div class="row">
-		<div class="col-md-2 "><button><a href="Progressbar.html">Progress Bar</a></button></div>
-		<div class="col-md-2 "><button><a href="Dropdown.html">Dropdown</a></button></div>
-		<div class="col-md-2 "><button><a href="Navbar.html">Navbar</a></button></div>
-		<div class="col-md-2 "><button><a href="Forms.html">Forms</a></button></div>
-		<div class="col-md-2 "><button><a href="Inputgroups.html">Input Groups</a></button></div>
-		<div class="col-md-2 "><button><a href="Collapse.html">Collapse</a></button></div>
-	</div>
-</div>
+	<table border="">
+	<thead>
+		<th>course Name</th>
+		<th>course Number</th>
+		<th>course fees</th>
+		<th>place</th>
+	</thead>
+	<tbody id="tablebody"></tbody>
+    </table>
+	<script type="text/javascript">
+		let s=[{
+			Name:"html",
+			Number:"23423",
+			fee:"235",
+			place:"dwp"
+		},
+		{
+			Name:"css",
+			Number:"65687",
+			fee:"567",
+			place:"dwp"
+		},{
+			Name:"javascript",
+			Number:"67845",
+			fee:"7656",
+			place:"dwp"
+		}]
+		for(var i=0;i<s.length;i++){
+			let tr=document.createElement('tr');
+			let td1=document.createElement('td');
+			let td2=document.createElement('td');
+			let td3=document.createElement('td');
+			let td4=document.createElement('td');
+			td1.innerText=s[i].Name
+			td2.innerText=s[i].Number
+			td3.innerText=s[i].fee
+			td4.innerText=s[i].place
+			tr.append(td1)
+			tr.append(td2)
+			tr.append(td3)
+			tr.append(td4)
+			document.getElementById('tablebody').append(tr)	
+		}
+	</script>
+
 </body>
 </html>

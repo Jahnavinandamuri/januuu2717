@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<h2>Spread Operators</h2>
+	<p>it takes an iteration and expands or seperate each element.</p>
+	<p>Notation.as...(triple dots)</p>
+</body>
+<script type="text/javascript">
+	//---1st way-----//4
+	let arr=[79,89,98,67];
+	console.log(arr);
+	console.log(...arr);
+	//--2nd way----//4
+	// let arr2=[2,4,arr];
+	let arr2 = [2,4,...arr];
+	console.log(arr2);
+	//--3rd way--//
+	let s='drivready';
+	console.log(s);
+	console.log(...s);
+	//--4th way--//
+	let arr11 = [1,2,3,4];
+	let arr22 = [5,6,7,8];
+	console.log(arr11,arr22)
+	console.log(...arr11,...arr22)
+	let arr5 =[...arr11,10,20,...arr22,40,50];
+	console.log(arr5);
+	//--5th way--//
+	let arr6=[1,2,3,4];
+	function  add(a,b,c,d) {
+		console.log(a+b+c+d);
+	}
+	// add(arr6[0],arr6[1],arr6[2],arr6[3])
+	add(...arr6)
+</script>
+</html>
