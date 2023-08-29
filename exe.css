@@ -1,0 +1,293 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+#a{
+	height:730px;
+	width:1530px;
+	background-color: lavender;
+	position: relative;
+}
+.b{
+	margin-top:20px;
+	position: absolute;
+	height: 50px;
+	width: 1530px;
+	background-color: whitesmoke;
+}
+.c{
+	height: 700px;
+	width:1530px;
+	background-color: lavender;
+}
+.d{
+	height:600px;
+	width:400px;
+	background-color: whitesmoke;
+	margin-top:100px;
+	margin-left: 30px;
+	float: left;
+	border-radius: 10px;
+}
+.e{
+	height: 600px;
+	width: 1100px;
+	float: left;
+	margin-top:100px;
+	background-color: lavender;
+}
+.f{
+	height:300px;
+	width:1000px;
+	background-color: whitesmoke;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+.g{
+	height:300px;
+	width:1000px;
+	background-color: whitesmoke;
+	margin-left: 30px;
+	border-radius: 10px;
+}
+.Preview{
+	margin-left:500px;
+	margin-top:10px;
+	padding-left:2px;
+	padding-right: 2px;
+	background-color: lawngreen;
+	color: white;
+	border-color: lawngreen;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.HTML{
+	margin-left: 20px;
+	margin-top: 10px;
+	padding-left:2px;
+	padding-right: 2px;
+	background-color: skyblue;
+	color: white;
+	border-color: skyblue;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.CSS{
+	margin-left: 20px;
+	margin-top: 15px;
+	padding-left:2px;
+	padding-right: 2px;
+	background-color: skyblue;
+	color: white;
+	border-color: skyblue;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.Download{
+	margin-left: 20px;
+	margin-top: 10px;
+	padding-left:2px;
+	padding-right: 2px;
+	background-color: skyblue;
+	color: white;
+	border-color: skyblue;
+	font-size: 20px;
+	border-radius: 5px;
+}
+select{
+	margin-left:20px;
+	margin-top: 10px;
+	background-color: red;
+	color: white;
+	border-color: red;
+	font-size: 20px;
+	border-radius: 5px;
+}
+#i{
+	margin-top: 20px;
+	font-size:100px;
+	margin-left: 150px;
+}
+h1{
+	margin-left: 130px;
+	font-family: monospace;
+}
+.para{
+	margin-left: 110px;
+	color: dimgray;
+	font-size: 20px;
+}
+.para1{
+	margin-left: 90px;
+	color: dimgray;
+	font-size: 20px;
+}
+.followbutton{
+	margin-left: 110px;
+	background-color: blue;
+	color: white;
+	border-color: blue;
+	font-size: 15px;
+	border-radius: 3px;
+	padding:3px;
+	display: inline;
+}
+.messagebutton{
+	margin-left: 10px;
+	color: blue;
+	border-color: blue;
+	font-size: 15px;
+	border-radius: 3px;
+	padding:3px;
+	display: inline;
+}
+hr{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right:20px;
+	border:1px solid darkgrey;
+}
+#icon1{
+	margin-top: 20px;
+	margin-left:30px;
+}
+a{
+	text-decoration: none;
+}
+.link{
+	margin-left:120px;
+	color:dimgray;
+}
+.word{
+	margin-left:10px;
+	color:black;
+}
+.link1{
+	margin-left: 200px;
+	color:dimgray;
+}
+.link2{
+	margin-left: 180px;
+	color:dimgray;
+}
+.link3{
+	margin-left: 170px;
+	color:dimgray;
+}
+.link4{
+	margin-left: 180px;
+	color:dimgray;
+}
+label{
+	margin-left: 40px;
+}
+.fi{
+	margin-left: 150px;
+	padding-right: 300px;
+}
+.fi1{
+	margin-left: 180px;
+	padding-right: 300px;
+}
+.fi3{
+	margin-left: 175px;
+	padding-right: 300px;
+}
+.fi4{
+	margin-left: 165px;
+	padding-right: 300px;
+}
+.button{
+	color: white;
+	margin-top: 20px;
+	background-color: blue;
+	margin-left: 260px;
+	padding:5px;
+	border-radius: 5px;
+	border-color: blue;
+}
+h2{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.span{
+	display: block;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.div1{
+	margin-top: 10px;
+	height: 4px;
+	width:700px;
+	background-color: blue;
+	margin-left: 20px;
+	float:left;
+}
+.div11{
+	margin-top: 10px;
+	height: 4px;
+	width:200px;
+	background-color: dimgray;
+	float:left;
+}
+.div2{
+	margin-top: 10px;
+	height: 4px;
+	width:600px;
+	background-color: red;
+	margin-left: 20px;
+	float:left;
+}
+.div21{
+	margin-top: 10px;
+	height: 4px;
+	width:300px;
+	background-color: dimgray;
+	float:left;
+}
+.div3{
+	margin-top: 10px;
+	height: 4px;
+	width:800px;
+	background-color: green;
+	margin-left: 20px;
+	float:left;
+}
+.div31{
+	margin-top: 10px;
+	height: 4px;
+	width:100px;
+	background-color: dimgray;
+	float:left;
+}
+.div4{
+	margin-top: 10px;
+	height: 4px;
+	width:500px;
+	background-color: yellow;
+	margin-left: 20px;
+	float:left;
+}
+.div41{
+	margin-top: 10px;
+	height: 4px;
+	width:400px;
+	background-color: dimgray;
+	float:left;
+}
+.div5{
+	margin-top: 10px;
+	height: 4px;
+	width:550px;
+	background-color: cadetblue;
+	margin-left: 20px;
+	float:left;
+}
+.div51{
+	margin-top: 10px;
+	height: 4px;
+	width:350px;
+	background-color: dimgray;
+	float:left;
+}

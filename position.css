@@ -1,0 +1,30 @@
+.a{
+	height: 300px;
+	width: 200px;
+	position: static;
+	background-color: pink;
+	float: left;
+}
+.b{
+	height: 300px;
+	width: 200px;
+	position: relative;
+	top: 20px;
+	background-color: orange;
+	float: left;
+}
+.c{
+	height: 300px;
+	width: 200px;
+	position: absolute;
+	background-color: yellow;
+	float: left;
+}
+.d{
+	height: 300px;
+	width: 200px;
+	position: fixed;
+	top: 30px;
+	background-color: purple;
+	float: left;
+}

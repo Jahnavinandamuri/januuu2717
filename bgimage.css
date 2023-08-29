@@ -1,0 +1,9 @@
+body{
+	background-image: url('../yogi/pikachu.jpg');
+	background-repeat: no-repeat;
+}
+.div{
+	background-image: url('../yogi/p.jpg');
+	height: 200px;
+	width: 200px;
+}

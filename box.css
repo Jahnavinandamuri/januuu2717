@@ -1,0 +1,13 @@
+.a{
+	height: 200px;
+	width: 180px;
+	background-color: pink;
+	margin: 20px;
+	box-shadow: 3px 3px 3px red;
+}
+div{
+	width: 300px;
+	border: 15px solid skyblue;
+	padding: 10px;
+	margin: 20px;
+}

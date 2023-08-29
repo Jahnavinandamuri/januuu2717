@@ -1,0 +1,4 @@
+ let h1=document.getElementById('a');
+   h1.style.fontSize="50px";
+   let h2=document.getElementById('b');
+   h2.style.color="red";
